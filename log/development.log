@@ -247,3 +247,3657 @@ Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 15:31:49 +08
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 15:31:49 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 17:17:14 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 177ms (Views: 160.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 17:17:14 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 17:17:14 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 17:17:14 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 17:17:14 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 17:17:14 +0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 17:17:14 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 17:17:14 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 17:17:26 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 117ms (Views: 110.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 17:17:26 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 17:17:26 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 17:17:26 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 17:17:26 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 17:17:26 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 17:17:26 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 17:17:26 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 17:18:17 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 95ms (Views: 94.4ms | ActiveRecord: 0.0ms)
+
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 17:18:17 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 17:18:17 +0800
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 17:18:17 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 17:18:17 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 17:18:17 +0800
+
+
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 17:18:17 +0800
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 17:18:17 +0800
+
+
+Started GET "/404.htm" for 127.0.0.1 at 2014-11-09 17:21:53 +0800
+
+ActionController::RoutingError (No route matches [GET] "/404.htm"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  unicorn (4.8.3) lib/unicorn/http_server.rb:576:in `process_client'
+  unicorn (4.8.3) lib/unicorn/http_server.rb:670:in `worker_loop'
+  unicorn (4.8.3) lib/unicorn/http_server.rb:525:in `spawn_missing_workers'
+  unicorn (4.8.3) lib/unicorn/http_server.rb:140:in `start'
+  unicorn (4.8.3) bin/unicorn_rails:209:in `<top (required)>'
+  /Users/erwinkarim/.rvm/rubies/ruby-2.1.2/bin/unicorn_rails:23:in `load'
+  /Users/erwinkarim/.rvm/rubies/ruby-2.1.2/bin/unicorn_rails:23:in `<main>'
+  /Users/erwinkarim/.rvm/gems/ruby-2.1.2@global/bin/ruby_executable_hooks:15:in `eval'
+  /Users/erwinkarim/.rvm/gems/ruby-2.1.2@global/bin/ruby_executable_hooks:15:in `<main>'
+
+
+  Rendered /Users/erwinkarim/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /Users/erwinkarim/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.3ms)
+  Rendered /Users/erwinkarim/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (12.4ms)
+  Rendered /Users/erwinkarim/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (74.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 17:23:08 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 138ms (Views: 133.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 17:23:09 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 17:23:09 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 17:23:09 +0800
+
+
+
+
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 17:23:09 +0800
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 17:23:09 +0800
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 17:23:09 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 17:23:09 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 17:24:02 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 115ms (Views: 113.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 17:24:02 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 124ms (Views: 123.5ms | ActiveRecord: 0.0ms)
+
+
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 17:24:03 +0800
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 17:24:03 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 17:24:03 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 17:24:03 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 17:24:03 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 17:24:03 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 17:24:03 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 17:24:19 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 65ms (Views: 64.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 17:24:19 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 17:24:19 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 17:24:19 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 17:24:19 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 17:24:19 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 17:24:19 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 17:24:19 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 17:26:20 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 75ms (Views: 74.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 17:26:20 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 17:26:20 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 17:26:20 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 17:26:20 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 17:26:20 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 17:26:20 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 17:26:20 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 17:26:47 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 60ms (Views: 59.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 17:26:47 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 17:26:47 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 17:26:47 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 17:26:47 +0800
+
+
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 17:26:47 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 17:26:47 +0800
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 17:26:47 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 17:26:55 +0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 17:26:55 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 17:30:11 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 65ms (Views: 64.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 17:30:11 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 17:30:11 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 17:30:11 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 17:30:11 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 17:30:11 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 17:30:11 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 17:30:11 +0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 17:31:46 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 17:31:46 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 17:32:33 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 59ms (Views: 58.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 17:32:34 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 17:32:34 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 17:32:34 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 17:32:34 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 17:32:34 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 17:32:34 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 17:32:34 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 17:39:28 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (2.1ms)
+Completed 200 OK in 69ms (Views: 68.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 17:39:28 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (3.1ms)
+Completed 200 OK in 94ms (Views: 93.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 17:39:28 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 17:39:28 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 17:39:28 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 17:39:28 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 17:39:28 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 17:39:28 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 17:39:28 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 17:40:03 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (1.9ms)
+Completed 200 OK in 64ms (Views: 63.9ms | ActiveRecord: 0.0ms)
+
+
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 17:40:03 +0800
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 17:40:03 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 17:40:03 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 17:40:03 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 17:40:03 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 17:40:03 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 17:40:03 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 17:46:57 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (11.2ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %h4 and nested within it.):
+     6: 				.panel.panel-default
+     7: 					.panel-heading#panel1{ :role => "tab" }
+     8: 						%h4 Layer 1
+     9: 							%a{ :data => { :toggle => 'collapse', :parent => "#accordion"}, :href =>  "#panel1" }
+    10: 					.panel-collapse.in.collapse#panel1body{ :role => "tabpanel" }
+    11: 						.panel-body
+    12: 							Some Shit
+  app/views/welcome/index.html.haml:9
+
+
+  Rendered /Users/erwinkarim/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/erwinkarim/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/erwinkarim/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (19.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 17:48:04 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (4.8ms)
+Completed 200 OK in 61ms (Views: 60.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 17:48:04 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 17:48:04 +0800
+
+
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 17:48:04 +0800
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 17:48:04 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 17:48:04 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 17:48:04 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 17:48:04 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 17:48:12 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (5.6ms)
+Completed 200 OK in 57ms (Views: 56.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 17:48:12 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 17:48:12 +0800
+
+
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 17:48:13 +0800
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 17:48:13 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 17:48:13 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 17:48:13 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 17:48:13 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 17:48:29 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (4.1ms)
+Completed 200 OK in 59ms (Views: 58.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 17:48:30 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 17:48:30 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 17:48:30 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 17:48:30 +0800
+
+
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 17:48:30 +0800
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 17:48:30 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 17:48:30 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 17:49:24 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (7.2ms)
+Completed 500 Internal Server Error in 9ms
+
+SyntaxError (/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:5: syntax error, unexpected ':', expecting ')'
+...n"}, nil,  :role => "tablist" :aria => { :multiselectable =>...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:5: syntax error, unexpected ')', expecting tSTRING_DEND
+... { :multiselectable => true } )}>\n        <div class='panel...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:5: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+... true } )}>\n        <div class='panel panel-default'>\n    ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:5: syntax error, unexpected $undefined
+...v class='panel panel-default'>\n          <div class='panel-...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:5: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+...default'>\n          <div class='panel-heading' id='panel1' ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:5: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...  <div class='panel-heading' id='panel1' role='tab'>\n      ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:5: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...panel-heading' id='panel1' role='tab'>\n            <h4>\n  ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:5: syntax error, unexpected $undefined
+...ading' id='panel1' role='tab'>\n            <h4>\n          ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:5: syntax error, unexpected $undefined
+... role='tab'>\n            <h4>\n              <a#{_hamlout.a...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected tSTRING_DEND, expecting '}'
+_hamlout.attributes({}, nil,  :data => { :toggle =>...
+                      ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: Can't assign to nil
+_hamlout.attributes({}, nil,  :data => { :toggle => 'coll...
+                            ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected =>, expecting :: or '[' or '.'
+...t.attributes({}, nil,  :data => { :toggle => 'collapse', :pa...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected tSTRING_DEND, expecting '}'
+...apse', :parent => "#accordion"}, :href =>  "#panel1" )}>\n  ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected ')', expecting tSTRING_DEND
+...ordion"}, :href =>  "#panel1" )}>\n                Layer 1\n...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected $undefined, expecting tSTRING_DEND
+..." )}>\n                Layer 1\n              </a>\n        ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: unknown regexp option - h
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected tINTEGER, expecting tSTRING_DEND
+...         </a>\n            </h4>\n          </div>\n        ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: unknown regexp options - dv
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected $undefined
+... Some Shit\n            </div>\n          </div>\n        </...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: unknown regexp options - dv
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected $undefined
+...        </div>\n        </div>\n        <div class='panel pa...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+...     </div>\n        <div class='panel panel-default'>\n    ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected $undefined
+...v class='panel panel-default'>\n          <div class='panel-...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+...default'>\n          <div class='panel-heading' id='panel2' ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...  <div class='panel-heading' id='panel2' role='tab'>\n      ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...panel-heading' id='panel2' role='tab'>\n            <h4>\n  ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected $undefined
+...ading' id='panel2' role='tab'>\n            <h4>\n          ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected $undefined
+... role='tab'>\n            <h4>\n              <a#{
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: syntax error, unexpected '}', expecting tSTRING_DEND
+...rdion"}, :href =>  "#panel2" )}>\n                Layer 2\n ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: syntax error, unexpected $undefined, expecting tSTRING_DEND
+..." )}>\n                Layer 2\n              </a>\n        ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: unknown regexp option - h
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: syntax error, unexpected tINTEGER, expecting tSTRING_DEND
+...         </a>\n            </h4>\n          </div>\n        ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: unknown regexp options - dv
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: syntax error, unexpected $undefined
+... Some Shit\n            </div>\n          </div>\n        </...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: unknown regexp options - dv
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: syntax error, unexpected $undefined
+...        </div>\n        </div>\n      </div>\n    </div>\n  ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: unknown regexp options - dv
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: syntax error, unexpected $undefined
+...div>\n      </div>\n    </div>\n  </div>\n  <div class='row'...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: unknown regexp options - dv
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: syntax error, unexpected $undefined
+...uttons goes here\n      </div>\n    </div>\n  </div>\n</div>...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: unknown regexp options - dv
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: syntax error, unexpected $undefined
+...  </div>\n    </div>\n  </div>\n</div>\n", -7, false);::Haml...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: unterminated regexp meets end of file
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: syntax error, unexpected end-of-input, expecting tSTRING_DEND):
+  actionview (4.1.0) lib/action_view/template.rb:297:in `module_eval'
+  actionview (4.1.0) lib/action_view/template.rb:297:in `compile'
+  actionview (4.1.0) lib/action_view/template.rb:245:in `block (2 levels) in compile!'
+  activesupport (4.1.0) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.0) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.0) lib/action_view/template.rb:244:in `block in compile!'
+  actionview (4.1.0) lib/action_view/template.rb:232:in `synchronize'
+  actionview (4.1.0) lib/action_view/template.rb:232:in `compile!'
+  actionview (4.1.0) lib/action_view/template.rb:144:in `block in render'
+  activesupport (4.1.0) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.0) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.0) lib/action_view/template.rb:143:in `render'
+  actionview (4.1.0) lib/action_view/renderer/template_renderer.rb:55:in `block (2 levels) in render_template'
+  actionview (4.1.0) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionview (4.1.0) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionview (4.1.0) lib/action_view/renderer/template_renderer.rb:54:in `block in render_template'
+  actionview (4.1.0) lib/action_view/renderer/template_renderer.rb:62:in `render_with_layout'
+  actionview (4.1.0) lib/action_view/renderer/template_renderer.rb:53:in `render_template'
+  actionview (4.1.0) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionview (4.1.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.1.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.1.0) lib/action_view/rendering.rb:99:in `_render_template'
+  actionpack (4.1.0) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.1.0) lib/action_view/rendering.rb:82:in `render_to_body'
+  actionpack (4.1.0) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.1.0) lib/action_controller/metal/renderers.rb:32:in `render_to_body'
+  actionpack (4.1.0) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.1.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.1.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/erwinkarim/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.1.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.1.0) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.1.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.1.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.1.0) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.1.0) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:229:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.0) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.0) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  unicorn (4.8.3) lib/unicorn/http_server.rb:576:in `process_client'
+  unicorn (4.8.3) lib/unicorn/http_server.rb:670:in `worker_loop'
+  unicorn (4.8.3) lib/unicorn/http_server.rb:525:in `spawn_missing_workers'
+  unicorn (4.8.3) lib/unicorn/http_server.rb:140:in `start'
+  unicorn (4.8.3) bin/unicorn_rails:209:in `<top (required)>'
+  /Users/erwinkarim/.rvm/rubies/ruby-2.1.2/bin/unicorn_rails:23:in `load'
+  /Users/erwinkarim/.rvm/rubies/ruby-2.1.2/bin/unicorn_rails:23:in `<main>'
+  /Users/erwinkarim/.rvm/gems/ruby-2.1.2@global/bin/ruby_executable_hooks:15:in `eval'
+  /Users/erwinkarim/.rvm/gems/ruby-2.1.2@global/bin/ruby_executable_hooks:15:in `<main>'
+
+
+  Rendered /Users/erwinkarim/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/erwinkarim/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/erwinkarim/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /Users/erwinkarim/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (23.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 17:49:35 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (4.7ms)
+Completed 500 Internal Server Error in 7ms
+
+SyntaxError (/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:5: syntax error, unexpected ':', expecting ')'
+...n"}, nil,  :role => "tablist" :aria => { :multiselectable =>...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:5: syntax error, unexpected ')', expecting tSTRING_DEND
+... :multiselectable => "true" } )}>\n        <div class='panel...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:5: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+...true" } )}>\n        <div class='panel panel-default'>\n    ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:5: syntax error, unexpected $undefined
+...v class='panel panel-default'>\n          <div class='panel-...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:5: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+...default'>\n          <div class='panel-heading' id='panel1' ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:5: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...  <div class='panel-heading' id='panel1' role='tab'>\n      ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:5: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...panel-heading' id='panel1' role='tab'>\n            <h4>\n  ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:5: syntax error, unexpected $undefined
+...ading' id='panel1' role='tab'>\n            <h4>\n          ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:5: syntax error, unexpected $undefined
+... role='tab'>\n            <h4>\n              <a#{_hamlout.a...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected tSTRING_DEND, expecting '}'
+_hamlout.attributes({}, nil,  :data => { :toggle =>...
+                      ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: Can't assign to nil
+_hamlout.attributes({}, nil,  :data => { :toggle => 'coll...
+                            ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected =>, expecting :: or '[' or '.'
+...t.attributes({}, nil,  :data => { :toggle => 'collapse', :pa...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected tSTRING_DEND, expecting '}'
+...apse', :parent => "#accordion"}, :href =>  "#panel1" )}>\n  ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected ')', expecting tSTRING_DEND
+...ordion"}, :href =>  "#panel1" )}>\n                Layer 1\n...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected $undefined, expecting tSTRING_DEND
+..." )}>\n                Layer 1\n              </a>\n        ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: unknown regexp option - h
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected tINTEGER, expecting tSTRING_DEND
+...         </a>\n            </h4>\n          </div>\n        ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: unknown regexp options - dv
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected $undefined
+... Some Shit\n            </div>\n          </div>\n        </...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: unknown regexp options - dv
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected $undefined
+...        </div>\n        </div>\n        <div class='panel pa...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+...     </div>\n        <div class='panel panel-default'>\n    ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected $undefined
+...v class='panel panel-default'>\n          <div class='panel-...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+...default'>\n          <div class='panel-heading' id='panel2' ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...  <div class='panel-heading' id='panel2' role='tab'>\n      ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...panel-heading' id='panel2' role='tab'>\n            <h4>\n  ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected $undefined
+...ading' id='panel2' role='tab'>\n            <h4>\n          ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected $undefined
+... role='tab'>\n            <h4>\n              <a#{
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: syntax error, unexpected '}', expecting tSTRING_DEND
+...rdion"}, :href =>  "#panel2" )}>\n                Layer 2\n ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: syntax error, unexpected $undefined, expecting tSTRING_DEND
+..." )}>\n                Layer 2\n              </a>\n        ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: unknown regexp option - h
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: syntax error, unexpected tINTEGER, expecting tSTRING_DEND
+...         </a>\n            </h4>\n          </div>\n        ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: unknown regexp options - dv
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: syntax error, unexpected $undefined
+... Some Shit\n            </div>\n          </div>\n        </...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: unknown regexp options - dv
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: syntax error, unexpected $undefined
+...        </div>\n        </div>\n      </div>\n    </div>\n  ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: unknown regexp options - dv
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: syntax error, unexpected $undefined
+...div>\n      </div>\n    </div>\n  </div>\n  <div class='row'...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: unknown regexp options - dv
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: syntax error, unexpected $undefined
+...uttons goes here\n      </div>\n    </div>\n  </div>\n</div>...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: unknown regexp options - dv
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: syntax error, unexpected $undefined
+...  </div>\n    </div>\n  </div>\n</div>\n", -7, false);::Haml...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: unterminated regexp meets end of file
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: syntax error, unexpected end-of-input, expecting tSTRING_DEND):
+  actionview (4.1.0) lib/action_view/template.rb:297:in `module_eval'
+  actionview (4.1.0) lib/action_view/template.rb:297:in `compile'
+  actionview (4.1.0) lib/action_view/template.rb:245:in `block (2 levels) in compile!'
+  activesupport (4.1.0) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.0) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.0) lib/action_view/template.rb:244:in `block in compile!'
+  actionview (4.1.0) lib/action_view/template.rb:232:in `synchronize'
+  actionview (4.1.0) lib/action_view/template.rb:232:in `compile!'
+  actionview (4.1.0) lib/action_view/template.rb:144:in `block in render'
+  activesupport (4.1.0) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.0) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.0) lib/action_view/template.rb:143:in `render'
+  actionview (4.1.0) lib/action_view/renderer/template_renderer.rb:55:in `block (2 levels) in render_template'
+  actionview (4.1.0) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionview (4.1.0) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionview (4.1.0) lib/action_view/renderer/template_renderer.rb:54:in `block in render_template'
+  actionview (4.1.0) lib/action_view/renderer/template_renderer.rb:62:in `render_with_layout'
+  actionview (4.1.0) lib/action_view/renderer/template_renderer.rb:53:in `render_template'
+  actionview (4.1.0) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionview (4.1.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.1.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.1.0) lib/action_view/rendering.rb:99:in `_render_template'
+  actionpack (4.1.0) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.1.0) lib/action_view/rendering.rb:82:in `render_to_body'
+  actionpack (4.1.0) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.1.0) lib/action_controller/metal/renderers.rb:32:in `render_to_body'
+  actionpack (4.1.0) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.1.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.1.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/erwinkarim/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.1.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.1.0) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.1.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.1.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.1.0) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.1.0) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:229:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.0) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.0) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  unicorn (4.8.3) lib/unicorn/http_server.rb:576:in `process_client'
+  unicorn (4.8.3) lib/unicorn/http_server.rb:670:in `worker_loop'
+  unicorn (4.8.3) lib/unicorn/http_server.rb:525:in `spawn_missing_workers'
+  unicorn (4.8.3) lib/unicorn/http_server.rb:140:in `start'
+  unicorn (4.8.3) bin/unicorn_rails:209:in `<top (required)>'
+  /Users/erwinkarim/.rvm/rubies/ruby-2.1.2/bin/unicorn_rails:23:in `load'
+  /Users/erwinkarim/.rvm/rubies/ruby-2.1.2/bin/unicorn_rails:23:in `<main>'
+  /Users/erwinkarim/.rvm/gems/ruby-2.1.2@global/bin/ruby_executable_hooks:15:in `eval'
+  /Users/erwinkarim/.rvm/gems/ruby-2.1.2@global/bin/ruby_executable_hooks:15:in `<main>'
+
+
+  Rendered /Users/erwinkarim/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/erwinkarim/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/erwinkarim/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/erwinkarim/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 17:49:36 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (4.6ms)
+Completed 500 Internal Server Error in 7ms
+
+SyntaxError (/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:5: syntax error, unexpected ':', expecting ')'
+...n"}, nil,  :role => "tablist" :aria => { :multiselectable =>...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:5: syntax error, unexpected ')', expecting tSTRING_DEND
+... :multiselectable => "true" } )}>\n        <div class='panel...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:5: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+...true" } )}>\n        <div class='panel panel-default'>\n    ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:5: syntax error, unexpected $undefined
+...v class='panel panel-default'>\n          <div class='panel-...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:5: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+...default'>\n          <div class='panel-heading' id='panel1' ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:5: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...  <div class='panel-heading' id='panel1' role='tab'>\n      ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:5: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...panel-heading' id='panel1' role='tab'>\n            <h4>\n  ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:5: syntax error, unexpected $undefined
+...ading' id='panel1' role='tab'>\n            <h4>\n          ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:5: syntax error, unexpected $undefined
+... role='tab'>\n            <h4>\n              <a#{_hamlout.a...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected tSTRING_DEND, expecting '}'
+_hamlout.attributes({}, nil,  :data => { :toggle =>...
+                      ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: Can't assign to nil
+_hamlout.attributes({}, nil,  :data => { :toggle => 'coll...
+                            ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected =>, expecting :: or '[' or '.'
+...t.attributes({}, nil,  :data => { :toggle => 'collapse', :pa...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected tSTRING_DEND, expecting '}'
+...apse', :parent => "#accordion"}, :href =>  "#panel1" )}>\n  ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected ')', expecting tSTRING_DEND
+...ordion"}, :href =>  "#panel1" )}>\n                Layer 1\n...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected $undefined, expecting tSTRING_DEND
+..." )}>\n                Layer 1\n              </a>\n        ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: unknown regexp option - h
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected tINTEGER, expecting tSTRING_DEND
+...         </a>\n            </h4>\n          </div>\n        ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: unknown regexp options - dv
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected $undefined
+... Some Shit\n            </div>\n          </div>\n        </...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: unknown regexp options - dv
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected $undefined
+...        </div>\n        </div>\n        <div class='panel pa...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+...     </div>\n        <div class='panel panel-default'>\n    ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected $undefined
+...v class='panel panel-default'>\n          <div class='panel-...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+...default'>\n          <div class='panel-heading' id='panel2' ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...  <div class='panel-heading' id='panel2' role='tab'>\n      ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...panel-heading' id='panel2' role='tab'>\n            <h4>\n  ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected $undefined
+...ading' id='panel2' role='tab'>\n            <h4>\n          ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected $undefined
+... role='tab'>\n            <h4>\n              <a#{
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: syntax error, unexpected '}', expecting tSTRING_DEND
+...rdion"}, :href =>  "#panel2" )}>\n                Layer 2\n ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: syntax error, unexpected $undefined, expecting tSTRING_DEND
+..." )}>\n                Layer 2\n              </a>\n        ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: unknown regexp option - h
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: syntax error, unexpected tINTEGER, expecting tSTRING_DEND
+...         </a>\n            </h4>\n          </div>\n        ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: unknown regexp options - dv
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: syntax error, unexpected $undefined
+... Some Shit\n            </div>\n          </div>\n        </...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: unknown regexp options - dv
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: syntax error, unexpected $undefined
+...        </div>\n        </div>\n      </div>\n    </div>\n  ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: unknown regexp options - dv
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: syntax error, unexpected $undefined
+...div>\n      </div>\n    </div>\n  </div>\n  <div class='row'...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: unknown regexp options - dv
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: syntax error, unexpected $undefined
+...uttons goes here\n      </div>\n    </div>\n  </div>\n</div>...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: unknown regexp options - dv
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: syntax error, unexpected $undefined
+...  </div>\n    </div>\n  </div>\n</div>\n", -7, false);::Haml...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: unterminated regexp meets end of file
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: syntax error, unexpected end-of-input, expecting tSTRING_DEND):
+  actionview (4.1.0) lib/action_view/template.rb:297:in `module_eval'
+  actionview (4.1.0) lib/action_view/template.rb:297:in `compile'
+  actionview (4.1.0) lib/action_view/template.rb:245:in `block (2 levels) in compile!'
+  activesupport (4.1.0) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.0) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.0) lib/action_view/template.rb:244:in `block in compile!'
+  actionview (4.1.0) lib/action_view/template.rb:232:in `synchronize'
+  actionview (4.1.0) lib/action_view/template.rb:232:in `compile!'
+  actionview (4.1.0) lib/action_view/template.rb:144:in `block in render'
+  activesupport (4.1.0) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.0) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.0) lib/action_view/template.rb:143:in `render'
+  actionview (4.1.0) lib/action_view/renderer/template_renderer.rb:55:in `block (2 levels) in render_template'
+  actionview (4.1.0) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionview (4.1.0) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionview (4.1.0) lib/action_view/renderer/template_renderer.rb:54:in `block in render_template'
+  actionview (4.1.0) lib/action_view/renderer/template_renderer.rb:62:in `render_with_layout'
+  actionview (4.1.0) lib/action_view/renderer/template_renderer.rb:53:in `render_template'
+  actionview (4.1.0) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionview (4.1.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.1.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.1.0) lib/action_view/rendering.rb:99:in `_render_template'
+  actionpack (4.1.0) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.1.0) lib/action_view/rendering.rb:82:in `render_to_body'
+  actionpack (4.1.0) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.1.0) lib/action_controller/metal/renderers.rb:32:in `render_to_body'
+  actionpack (4.1.0) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.1.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.1.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/erwinkarim/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.1.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.1.0) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.1.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.1.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.1.0) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.1.0) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:229:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.0) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.0) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  unicorn (4.8.3) lib/unicorn/http_server.rb:576:in `process_client'
+  unicorn (4.8.3) lib/unicorn/http_server.rb:670:in `worker_loop'
+  unicorn (4.8.3) lib/unicorn/http_server.rb:525:in `spawn_missing_workers'
+  unicorn (4.8.3) lib/unicorn/http_server.rb:140:in `start'
+  unicorn (4.8.3) bin/unicorn_rails:209:in `<top (required)>'
+  /Users/erwinkarim/.rvm/rubies/ruby-2.1.2/bin/unicorn_rails:23:in `load'
+  /Users/erwinkarim/.rvm/rubies/ruby-2.1.2/bin/unicorn_rails:23:in `<main>'
+  /Users/erwinkarim/.rvm/gems/ruby-2.1.2@global/bin/ruby_executable_hooks:15:in `eval'
+  /Users/erwinkarim/.rvm/gems/ruby-2.1.2@global/bin/ruby_executable_hooks:15:in `<main>'
+
+
+  Rendered /Users/erwinkarim/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/erwinkarim/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/erwinkarim/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/erwinkarim/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 17:49:37 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (4.6ms)
+Completed 500 Internal Server Error in 7ms
+
+SyntaxError (/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:5: syntax error, unexpected ':', expecting ')'
+...n"}, nil,  :role => "tablist" :aria => { :multiselectable =>...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:5: syntax error, unexpected ')', expecting tSTRING_DEND
+... :multiselectable => "true" } )}>\n        <div class='panel...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:5: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+...true" } )}>\n        <div class='panel panel-default'>\n    ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:5: syntax error, unexpected $undefined
+...v class='panel panel-default'>\n          <div class='panel-...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:5: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+...default'>\n          <div class='panel-heading' id='panel1' ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:5: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...  <div class='panel-heading' id='panel1' role='tab'>\n      ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:5: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...panel-heading' id='panel1' role='tab'>\n            <h4>\n  ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:5: syntax error, unexpected $undefined
+...ading' id='panel1' role='tab'>\n            <h4>\n          ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:5: syntax error, unexpected $undefined
+... role='tab'>\n            <h4>\n              <a#{_hamlout.a...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected tSTRING_DEND, expecting '}'
+_hamlout.attributes({}, nil,  :data => { :toggle =>...
+                      ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: Can't assign to nil
+_hamlout.attributes({}, nil,  :data => { :toggle => 'coll...
+                            ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected =>, expecting :: or '[' or '.'
+...t.attributes({}, nil,  :data => { :toggle => 'collapse', :pa...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected tSTRING_DEND, expecting '}'
+...apse', :parent => "#accordion"}, :href =>  "#panel1" )}>\n  ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected ')', expecting tSTRING_DEND
+...ordion"}, :href =>  "#panel1" )}>\n                Layer 1\n...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected $undefined, expecting tSTRING_DEND
+..." )}>\n                Layer 1\n              </a>\n        ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: unknown regexp option - h
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected tINTEGER, expecting tSTRING_DEND
+...         </a>\n            </h4>\n          </div>\n        ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: unknown regexp options - dv
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected $undefined
+... Some Shit\n            </div>\n          </div>\n        </...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: unknown regexp options - dv
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected $undefined
+...        </div>\n        </div>\n        <div class='panel pa...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+...     </div>\n        <div class='panel panel-default'>\n    ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected $undefined
+...v class='panel panel-default'>\n          <div class='panel-...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+...default'>\n          <div class='panel-heading' id='panel2' ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...  <div class='panel-heading' id='panel2' role='tab'>\n      ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...panel-heading' id='panel2' role='tab'>\n            <h4>\n  ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected $undefined
+...ading' id='panel2' role='tab'>\n            <h4>\n          ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:9: syntax error, unexpected $undefined
+... role='tab'>\n            <h4>\n              <a#{
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: syntax error, unexpected '}', expecting tSTRING_DEND
+...rdion"}, :href =>  "#panel2" )}>\n                Layer 2\n ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: syntax error, unexpected $undefined, expecting tSTRING_DEND
+..." )}>\n                Layer 2\n              </a>\n        ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: unknown regexp option - h
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: syntax error, unexpected tINTEGER, expecting tSTRING_DEND
+...         </a>\n            </h4>\n          </div>\n        ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: unknown regexp options - dv
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: syntax error, unexpected $undefined
+... Some Shit\n            </div>\n          </div>\n        </...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: unknown regexp options - dv
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: syntax error, unexpected $undefined
+...        </div>\n        </div>\n      </div>\n    </div>\n  ...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: unknown regexp options - dv
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: syntax error, unexpected $undefined
+...div>\n      </div>\n    </div>\n  </div>\n  <div class='row'...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: unknown regexp options - dv
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: syntax error, unexpected $undefined
+...uttons goes here\n      </div>\n    </div>\n  </div>\n</div>...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: unknown regexp options - dv
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: syntax error, unexpected $undefined
+...  </div>\n    </div>\n  </div>\n</div>\n", -7, false);::Haml...
+...                               ^
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: unterminated regexp meets end of file
+/Users/erwinkarim/Documents/Org-Chaos/app/views/welcome/index.html.haml:17: syntax error, unexpected end-of-input, expecting tSTRING_DEND):
+  actionview (4.1.0) lib/action_view/template.rb:297:in `module_eval'
+  actionview (4.1.0) lib/action_view/template.rb:297:in `compile'
+  actionview (4.1.0) lib/action_view/template.rb:245:in `block (2 levels) in compile!'
+  activesupport (4.1.0) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.0) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.0) lib/action_view/template.rb:244:in `block in compile!'
+  actionview (4.1.0) lib/action_view/template.rb:232:in `synchronize'
+  actionview (4.1.0) lib/action_view/template.rb:232:in `compile!'
+  actionview (4.1.0) lib/action_view/template.rb:144:in `block in render'
+  activesupport (4.1.0) lib/active_support/notifications.rb:161:in `instrument'
+  actionview (4.1.0) lib/action_view/template.rb:339:in `instrument'
+  actionview (4.1.0) lib/action_view/template.rb:143:in `render'
+  actionview (4.1.0) lib/action_view/renderer/template_renderer.rb:55:in `block (2 levels) in render_template'
+  actionview (4.1.0) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionview (4.1.0) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionview (4.1.0) lib/action_view/renderer/template_renderer.rb:54:in `block in render_template'
+  actionview (4.1.0) lib/action_view/renderer/template_renderer.rb:62:in `render_with_layout'
+  actionview (4.1.0) lib/action_view/renderer/template_renderer.rb:53:in `render_template'
+  actionview (4.1.0) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionview (4.1.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.1.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.1.0) lib/action_view/rendering.rb:99:in `_render_template'
+  actionpack (4.1.0) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.1.0) lib/action_view/rendering.rb:82:in `render_to_body'
+  actionpack (4.1.0) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.1.0) lib/action_controller/metal/renderers.rb:32:in `render_to_body'
+  actionpack (4.1.0) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.1.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.1.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/erwinkarim/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.1.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.1.0) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.1.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.1.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.1.0) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.1.0) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:229:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.0) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.0) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  unicorn (4.8.3) lib/unicorn/http_server.rb:576:in `process_client'
+  unicorn (4.8.3) lib/unicorn/http_server.rb:670:in `worker_loop'
+  unicorn (4.8.3) lib/unicorn/http_server.rb:525:in `spawn_missing_workers'
+  unicorn (4.8.3) lib/unicorn/http_server.rb:140:in `start'
+  unicorn (4.8.3) bin/unicorn_rails:209:in `<top (required)>'
+  /Users/erwinkarim/.rvm/rubies/ruby-2.1.2/bin/unicorn_rails:23:in `load'
+  /Users/erwinkarim/.rvm/rubies/ruby-2.1.2/bin/unicorn_rails:23:in `<main>'
+  /Users/erwinkarim/.rvm/gems/ruby-2.1.2@global/bin/ruby_executable_hooks:15:in `eval'
+  /Users/erwinkarim/.rvm/gems/ruby-2.1.2@global/bin/ruby_executable_hooks:15:in `<main>'
+
+
+  Rendered /Users/erwinkarim/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/erwinkarim/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/erwinkarim/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/erwinkarim/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (24.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 17:49:48 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (4.4ms)
+Completed 200 OK in 57ms (Views: 56.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 17:49:48 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 17:49:48 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 17:49:49 +0800
+
+
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 17:49:49 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 17:49:49 +0800
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 17:49:49 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 17:49:49 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 18:23:46 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (0.5ms)
+Completed 200 OK in 55ms (Views: 54.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 18:23:46 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 18:23:46 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 18:23:46 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 18:23:46 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 18:23:46 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 18:23:46 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 18:23:46 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 18:24:36 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (3.7ms)
+Completed 200 OK in 62ms (Views: 61.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 18:24:37 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 18:24:37 +0800
+
+
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 18:24:37 +0800
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 18:24:37 +0800
+
+
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 18:24:37 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 18:24:37 +0800
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 18:24:37 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 18:27:24 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (0.7ms)
+Completed 200 OK in 60ms (Views: 59.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 18:27:24 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 18:27:24 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 18:27:24 +0800
+
+
+
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 18:27:24 +0800
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 18:27:24 +0800
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 18:27:24 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 18:27:24 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 18:28:44 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (4.0ms)
+Completed 200 OK in 57ms (Views: 56.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 18:28:45 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 18:28:45 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 18:28:45 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 18:28:45 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 18:28:45 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 18:28:45 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 18:28:45 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 18:30:09 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (3.3ms)
+Completed 200 OK in 60ms (Views: 59.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 18:30:10 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 18:30:10 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 18:30:10 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 18:30:10 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 18:30:10 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 18:30:10 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 18:30:10 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 18:30:48 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (5.7ms)
+Completed 200 OK in 63ms (Views: 62.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 18:30:48 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 18:30:48 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 18:30:48 +0800
+
+
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 18:30:48 +0800
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 18:30:48 +0800
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 18:30:48 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 18:30:48 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 18:31:04 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (4.7ms)
+Completed 200 OK in 55ms (Views: 54.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 18:31:04 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 18:31:04 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 18:31:04 +0800
+
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 18:31:04 +0800
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 18:31:04 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 18:31:04 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 18:31:04 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 18:31:56 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (5.8ms)
+Completed 200 OK in 59ms (Views: 58.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 18:31:56 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 18:31:56 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 18:31:56 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 18:31:56 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 18:31:56 +0800
+
+
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 18:31:56 +0800
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 18:31:56 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 18:34:38 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (4.5ms)
+Completed 200 OK in 57ms (Views: 56.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 18:34:39 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 18:34:39 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 18:34:39 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 18:34:39 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 18:34:39 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 18:34:39 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 18:34:39 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 18:35:54 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (5.9ms)
+Completed 200 OK in 57ms (Views: 56.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 18:35:54 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 18:35:54 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 18:35:54 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 18:35:54 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 18:35:54 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 18:35:54 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 18:35:54 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 18:36:32 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (6.2ms)
+Completed 200 OK in 60ms (Views: 59.7ms | ActiveRecord: 0.0ms)
+
+
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 18:36:32 +0800
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 18:36:32 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 18:36:32 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 18:36:32 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 18:36:32 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 18:36:32 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 18:36:32 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 20:53:48 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (88.2ms)
+Completed 200 OK in 169ms (Views: 164.6ms | ActiveRecord: 0.0ms)
+
+
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 20:53:48 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 20:53:48 +0800
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 20:53:48 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 20:53:48 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 20:53:48 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 20:53:48 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 20:53:48 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 20:54:43 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (18.8ms)
+Completed 200 OK in 110ms (Views: 106.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 20:54:43 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 20:54:43 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 20:54:43 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 20:54:43 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 20:54:43 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 20:54:43 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 20:54:43 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 20:56:38 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (7.6ms)
+Completed 200 OK in 74ms (Views: 73.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 20:56:39 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 20:56:39 +0800
+
+
+
+
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 20:56:39 +0800
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 20:56:39 +0800
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 20:56:39 +0800
+
+
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 20:56:39 +0800
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 20:56:39 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 21:01:19 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (26.3ms)
+Completed 500 Internal Server Error in 138ms
+
+ActionView::Template::Error (couldn't find file 'paloma'
+  (in /Users/erwinkarim/Documents/Org-Chaos/app/assets/javascripts/application.js:16)):
+    16: 		/ actual clickable contents
+    17: 		.row
+    18: 			= yield
+    19: 	= javascript_include_tag 'application', 'data-turbolinks-track' => true 
+    20: 	= javascript_include_tag 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js'
+  app/views/layouts/application.html.haml:19:in `_app_views_layouts_application_html_haml__501579459679083728_70164891340180'
+
+
+  Rendered /Users/erwinkarim/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.1ms)
+  Rendered /Users/erwinkarim/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /Users/erwinkarim/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (27.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 21:01:48 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (10.0ms)
+Completed 500 Internal Server Error in 85ms
+
+ActionView::Template::Error (couldn't find file 'paloma'
+  (in /Users/erwinkarim/Documents/Org-Chaos/app/assets/javascripts/application.js:17)):
+    16: 		/ actual clickable contents
+    17: 		.row
+    18: 			= yield
+    19: 	= javascript_include_tag 'application', 'data-turbolinks-track' => true 
+    20: 	= javascript_include_tag 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js'
+  app/views/layouts/application.html.haml:19:in `_app_views_layouts_application_html_haml__501579459679083728_70164920713480'
+
+
+  Rendered /Users/erwinkarim/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.6ms)
+  Rendered /Users/erwinkarim/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.4ms)
+  Rendered /Users/erwinkarim/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (23.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 21:02:23 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (8.2ms)
+Completed 500 Internal Server Error in 64ms
+
+ActionView::Template::Error (couldn't find file 'paloma'
+  (in /Users/erwinkarim/Documents/Org-Chaos/app/assets/javascripts/application.js:15)):
+    16: 		/ actual clickable contents
+    17: 		.row
+    18: 			= yield
+    19: 	= javascript_include_tag 'application', 'data-turbolinks-track' => true 
+    20: 	= javascript_include_tag 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js'
+  app/views/layouts/application.html.haml:19:in `_app_views_layouts_application_html_haml__501579459679083728_70164919011340'
+
+
+  Rendered /Users/erwinkarim/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/erwinkarim/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/erwinkarim/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (17.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 21:03:29 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (0.5ms)
+Completed 200 OK in 65ms (Views: 64.1ms | ActiveRecord: 0.0ms)
+
+
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 21:03:29 +0800
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 21:03:29 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 21:03:29 +0800
+
+
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 21:03:29 +0800
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 21:03:29 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 21:03:29 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 21:03:29 +0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 21:03:34 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 21:03:34 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 21:04:20 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 83ms
+
+ActionView::Template::Error (couldn't find file 'paloma'
+  (in /Users/erwinkarim/Documents/Org-Chaos/app/assets/javascripts/application.js:16)):
+    16: 		/ actual clickable contents
+    17: 		.row
+    18: 			= yield
+    19: 	= javascript_include_tag 'application', 'data-turbolinks-track' => true 
+    20: 	= javascript_include_tag 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js'
+  app/views/layouts/application.html.haml:19:in `_app_views_layouts_application_html_haml__501579459679083728_70164891340180'
+
+
+  Rendered /Users/erwinkarim/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/erwinkarim/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/erwinkarim/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (14.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 21:05:13 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (8.9ms)
+  Rendered /Users/erwinkarim/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/paloma-4.1.1/app/views/paloma/_hook.html.erb (1.3ms)
+Completed 200 OK in 339ms (Views: 286.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 21:05:13 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 21:05:13 +0800
+
+
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-11-09 21:05:13 +0800
+
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-11-09 21:05:13 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 21:05:13 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 21:05:13 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 21:05:13 +0800
+
+
+
+
+Started GET "/assets/paloma/controller_factory.js?body=1" for 127.0.0.1 at 2014-11-09 21:05:13 +0800
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-11-09 21:05:13 +0800
+
+
+
+
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-11-09 21:05:13 +0800
+
+
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-11-09 21:05:13 +0800
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-11-09 21:05:13 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 21:05:13 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 21:05:13 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 23:10:54 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (71.6ms)
+  Rendered /Users/erwinkarim/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/paloma-4.1.1/app/views/paloma/_hook.html.erb (1.1ms)
+Completed 200 OK in 453ms (Views: 431.2ms | ActiveRecord: 0.0ms)
+
+
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 23:10:55 +0800
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 23:10:55 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 23:10:55 +0800
+
+
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2014-11-09 23:10:55 +0800
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2014-11-09 23:10:55 +0800
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2014-11-09 23:10:55 +0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2014-11-09 23:10:55 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 23:10:55 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 23:10:55 +0800
+
+
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-11-09 23:10:55 +0800
+
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-11-09 23:10:55 +0800
+
+
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-11-09 23:10:55 +0800
+
+
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-11-09 23:10:55 +0800
+
+
+Started GET "/assets/paloma/controller_factory.js?body=1" for 127.0.0.1 at 2014-11-09 23:10:55 +0800
+
+
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-11-09 23:10:55 +0800
+
+
+
+
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-11-09 23:10:55 +0800
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 23:10:55 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 23:10:55 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 23:12:06 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (5.4ms)
+  Rendered /Users/erwinkarim/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/paloma-4.1.1/app/views/paloma/_hook.html.erb (0.3ms)
+Completed 200 OK in 129ms (Views: 126.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 23:12:06 +0800
+
+
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 23:12:06 +0800
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 23:12:06 +0800
+
+
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2014-11-09 23:12:06 +0800
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2014-11-09 23:12:06 +0800
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2014-11-09 23:12:07 +0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2014-11-09 23:12:07 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 23:12:07 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 23:12:07 +0800
+
+
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-11-09 23:12:07 +0800
+
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-11-09 23:12:07 +0800
+
+
+
+
+Started GET "/assets/paloma/controller_factory.js?body=1" for 127.0.0.1 at 2014-11-09 23:12:07 +0800
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-11-09 23:12:07 +0800
+
+
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-11-09 23:12:07 +0800
+
+
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-11-09 23:12:07 +0800
+
+
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-11-09 23:12:07 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 23:12:07 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 23:12:07 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 23:13:54 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (9.2ms)
+  Rendered /Users/erwinkarim/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/paloma-4.1.1/app/views/paloma/_hook.html.erb (1.1ms)
+Completed 200 OK in 301ms (Views: 285.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 23:13:55 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 23:13:55 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 23:13:55 +0800
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2014-11-09 23:13:55 +0800
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2014-11-09 23:13:55 +0800
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2014-11-09 23:13:55 +0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2014-11-09 23:13:55 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 23:13:55 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 23:13:55 +0800
+
+
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-11-09 23:13:55 +0800
+
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-11-09 23:13:55 +0800
+
+
+
+
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-11-09 23:13:55 +0800
+Started GET "/assets/paloma/controller_factory.js?body=1" for 127.0.0.1 at 2014-11-09 23:13:55 +0800
+
+
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-11-09 23:13:55 +0800
+
+
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-11-09 23:13:55 +0800
+
+
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-11-09 23:13:55 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 23:13:55 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 23:13:55 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 23:15:12 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (5.4ms)
+  Rendered /Users/erwinkarim/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/paloma-4.1.1/app/views/paloma/_hook.html.erb (0.2ms)
+Completed 200 OK in 353ms (Views: 350.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 23:15:13 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 23:15:13 +0800
+
+
+
+
+Started GET "/assets/jquery-ui/theme.css?body=1" for 127.0.0.1 at 2014-11-09 23:15:13 +0800
+Started GET "/assets/jquery-ui/core.css?body=1" for 127.0.0.1 at 2014-11-09 23:15:13 +0800
+
+
+Started GET "/assets/jquery-ui/slider.css?body=1" for 127.0.0.1 at 2014-11-09 23:15:13 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 23:15:13 +0800
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2014-11-09 23:15:13 +0800
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2014-11-09 23:15:13 +0800
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2014-11-09 23:15:13 +0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2014-11-09 23:15:13 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 23:15:13 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 23:15:13 +0800
+
+
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-11-09 23:15:13 +0800
+
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-11-09 23:15:13 +0800
+
+
+Started GET "/assets/paloma/controller_factory.js?body=1" for 127.0.0.1 at 2014-11-09 23:15:13 +0800
+
+
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-11-09 23:15:13 +0800
+
+
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-11-09 23:15:13 +0800
+
+
+
+
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-11-09 23:15:13 +0800
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-11-09 23:15:13 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 23:15:13 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 23:15:13 +0800
+
+
+Started GET "/assets/jquery-ui/ui-bg_flat_75_ffffff_40x100.png" for 127.0.0.1 at 2014-11-09 23:15:17 +0800
+
+
+Started GET "/assets/jquery-ui/ui-bg_glass_75_e6e6e6_1x400.png" for 127.0.0.1 at 2014-11-09 23:15:17 +0800
+
+
+Started GET "/assets/jquery-ui/ui-bg_glass_75_dadada_1x400.png" for 127.0.0.1 at 2014-11-09 23:15:18 +0800
+
+
+Started GET "/assets/jquery-ui/ui-bg_glass_65_ffffff_1x400.png" for 127.0.0.1 at 2014-11-09 23:15:19 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 23:15:41 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (7.4ms)
+  Rendered /Users/erwinkarim/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/paloma-4.1.1/app/views/paloma/_hook.html.erb (0.2ms)
+Completed 200 OK in 142ms (Views: 140.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 23:15:41 +0800
+
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 23:15:41 +0800
+
+Started GET "/assets/jquery-ui/theme.css?body=1" for 127.0.0.1 at 2014-11-09 23:15:41 +0800
+
+
+
+
+Started GET "/assets/jquery-ui/core.css?body=1" for 127.0.0.1 at 2014-11-09 23:15:41 +0800
+Started GET "/assets/jquery-ui/slider.css?body=1" for 127.0.0.1 at 2014-11-09 23:15:41 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 23:15:41 +0800
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2014-11-09 23:15:41 +0800
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2014-11-09 23:15:41 +0800
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2014-11-09 23:15:41 +0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2014-11-09 23:15:41 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 23:15:41 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 23:15:41 +0800
+
+
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-11-09 23:15:41 +0800
+
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-11-09 23:15:41 +0800
+
+
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-11-09 23:15:41 +0800
+
+
+Started GET "/assets/paloma/controller_factory.js?body=1" for 127.0.0.1 at 2014-11-09 23:15:41 +0800
+
+
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-11-09 23:15:41 +0800
+
+
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-11-09 23:15:41 +0800
+
+
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-11-09 23:15:41 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 23:15:41 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 23:15:41 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 23:16:15 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (16.3ms)
+  Rendered /Users/erwinkarim/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/paloma-4.1.1/app/views/paloma/_hook.html.erb (0.3ms)
+Completed 200 OK in 305ms (Views: 298.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 23:16:15 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 23:16:15 +0800
+
+
+Started GET "/assets/jquery-ui/core.css?body=1" for 127.0.0.1 at 2014-11-09 23:16:15 +0800
+
+
+Started GET "/assets/jquery-ui/theme.css?body=1" for 127.0.0.1 at 2014-11-09 23:16:15 +0800
+
+
+Started GET "/assets/jquery-ui/slider.css?body=1" for 127.0.0.1 at 2014-11-09 23:16:15 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 23:16:15 +0800
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2014-11-09 23:16:15 +0800
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2014-11-09 23:16:15 +0800
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2014-11-09 23:16:15 +0800
+
+
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2014-11-09 23:16:15 +0800
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 23:16:15 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 23:16:15 +0800
+
+
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-11-09 23:16:15 +0800
+
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-11-09 23:16:15 +0800
+
+
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-11-09 23:16:15 +0800
+
+
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-11-09 23:16:15 +0800
+
+
+Started GET "/assets/paloma/controller_factory.js?body=1" for 127.0.0.1 at 2014-11-09 23:16:15 +0800
+
+
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-11-09 23:16:15 +0800
+
+
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-11-09 23:16:15 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 23:16:15 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 23:16:15 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 23:18:42 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (7.1ms)
+  Rendered /Users/erwinkarim/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/paloma-4.1.1/app/views/paloma/_hook.html.erb (0.2ms)
+Completed 200 OK in 201ms (Views: 198.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 23:18:43 +0800
+
+
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 23:18:43 +0800
+Started GET "/assets/jquery-ui/theme.css?body=1" for 127.0.0.1 at 2014-11-09 23:18:43 +0800
+
+
+Started GET "/assets/jquery-ui/core.css?body=1" for 127.0.0.1 at 2014-11-09 23:18:43 +0800
+
+
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 23:18:43 +0800
+Started GET "/assets/jquery-ui/slider.css?body=1" for 127.0.0.1 at 2014-11-09 23:18:43 +0800
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2014-11-09 23:18:43 +0800
+
+
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2014-11-09 23:18:43 +0800
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2014-11-09 23:18:43 +0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2014-11-09 23:18:43 +0800
+
+
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 23:18:43 +0800
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 23:18:43 +0800
+
+
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-11-09 23:18:43 +0800
+
+
+
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-11-09 23:18:43 +0800
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-11-09 23:18:43 +0800
+
+
+Started GET "/assets/paloma/controller_factory.js?body=1" for 127.0.0.1 at 2014-11-09 23:18:43 +0800
+
+
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-11-09 23:18:43 +0800
+
+
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-11-09 23:18:43 +0800
+
+
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-11-09 23:18:43 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 23:18:43 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 23:18:43 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 23:20:39 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (7.5ms)
+  Rendered /Users/erwinkarim/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/paloma-4.1.1/app/views/paloma/_hook.html.erb (0.2ms)
+Completed 200 OK in 253ms (Views: 251.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 23:20:40 +0800
+
+
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 23:20:40 +0800
+
+
+Started GET "/assets/jquery-ui/theme.css?body=1" for 127.0.0.1 at 2014-11-09 23:20:40 +0800
+Started GET "/assets/jquery-ui/core.css?body=1" for 127.0.0.1 at 2014-11-09 23:20:40 +0800
+
+
+Started GET "/assets/jquery-ui/slider.css?body=1" for 127.0.0.1 at 2014-11-09 23:20:40 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 23:20:40 +0800
+
+
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2014-11-09 23:20:40 +0800
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2014-11-09 23:20:40 +0800
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2014-11-09 23:20:40 +0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2014-11-09 23:20:40 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 23:20:40 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 23:20:40 +0800
+
+
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-11-09 23:20:40 +0800
+
+
+
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-11-09 23:20:40 +0800
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-11-09 23:20:40 +0800
+
+
+Started GET "/assets/paloma/controller_factory.js?body=1" for 127.0.0.1 at 2014-11-09 23:20:40 +0800
+
+
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-11-09 23:20:40 +0800
+
+
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-11-09 23:20:40 +0800
+
+
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-11-09 23:20:40 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 23:20:40 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 23:20:40 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 23:21:27 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (0.5ms)
+  Rendered /Users/erwinkarim/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/paloma-4.1.1/app/views/paloma/_hook.html.erb (0.2ms)
+Completed 200 OK in 181ms (Views: 179.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 23:21:27 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 23:21:27 +0800
+
+
+Started GET "/assets/jquery-ui/slider.css?body=1" for 127.0.0.1 at 2014-11-09 23:21:27 +0800
+
+
+
+
+Started GET "/assets/jquery-ui/core.css?body=1" for 127.0.0.1 at 2014-11-09 23:21:27 +0800
+Started GET "/assets/jquery-ui/theme.css?body=1" for 127.0.0.1 at 2014-11-09 23:21:27 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 23:21:27 +0800
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2014-11-09 23:21:27 +0800
+
+
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2014-11-09 23:21:27 +0800
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2014-11-09 23:21:27 +0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2014-11-09 23:21:27 +0800
+
+
+
+
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 23:21:27 +0800
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-11-09 23:21:27 +0800
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 23:21:27 +0800
+
+
+
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-11-09 23:21:27 +0800
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-11-09 23:21:27 +0800
+
+
+Started GET "/assets/paloma/controller_factory.js?body=1" for 127.0.0.1 at 2014-11-09 23:21:27 +0800
+
+
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-11-09 23:21:27 +0800
+
+
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-11-09 23:21:27 +0800
+
+
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-11-09 23:21:27 +0800
+
+
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 23:21:27 +0800
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 23:21:27 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 23:22:00 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (0.8ms)
+  Rendered /Users/erwinkarim/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/paloma-4.1.1/app/views/paloma/_hook.html.erb (0.2ms)
+Completed 200 OK in 190ms (Views: 188.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 23:22:01 +0800
+
+
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 23:22:01 +0800
+Started GET "/assets/jquery-ui/theme.css?body=1" for 127.0.0.1 at 2014-11-09 23:22:01 +0800
+
+
+
+
+Started GET "/assets/jquery-ui/core.css?body=1" for 127.0.0.1 at 2014-11-09 23:22:01 +0800
+Started GET "/assets/jquery-ui/slider.css?body=1" for 127.0.0.1 at 2014-11-09 23:22:01 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 23:22:01 +0800
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2014-11-09 23:22:01 +0800
+
+
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2014-11-09 23:22:01 +0800
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2014-11-09 23:22:01 +0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2014-11-09 23:22:01 +0800
+
+
+
+
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 23:22:01 +0800
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-11-09 23:22:01 +0800
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 23:22:01 +0800
+
+
+
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-11-09 23:22:01 +0800
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-11-09 23:22:01 +0800
+
+
+Started GET "/assets/paloma/controller_factory.js?body=1" for 127.0.0.1 at 2014-11-09 23:22:01 +0800
+
+
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-11-09 23:22:01 +0800
+
+
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-11-09 23:22:01 +0800
+
+
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-11-09 23:22:01 +0800
+
+
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 23:22:01 +0800
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 23:22:01 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 23:22:14 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (0.7ms)
+  Rendered /Users/erwinkarim/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/paloma-4.1.1/app/views/paloma/_hook.html.erb (0.2ms)
+Completed 200 OK in 215ms (Views: 213.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 23:22:14 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 23:22:14 +0800
+
+
+Started GET "/assets/jquery-ui/theme.css?body=1" for 127.0.0.1 at 2014-11-09 23:22:14 +0800
+
+
+Started GET "/assets/jquery-ui/core.css?body=1" for 127.0.0.1 at 2014-11-09 23:22:14 +0800
+
+
+Started GET "/assets/jquery-ui/slider.css?body=1" for 127.0.0.1 at 2014-11-09 23:22:14 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 23:22:14 +0800
+
+
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2014-11-09 23:22:14 +0800
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2014-11-09 23:22:14 +0800
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2014-11-09 23:22:14 +0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2014-11-09 23:22:14 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 23:22:14 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 23:22:14 +0800
+
+
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-11-09 23:22:14 +0800
+
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-11-09 23:22:14 +0800
+
+
+
+
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-11-09 23:22:14 +0800
+
+
+Started GET "/assets/paloma/controller_factory.js?body=1" for 127.0.0.1 at 2014-11-09 23:22:14 +0800
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-11-09 23:22:14 +0800
+
+
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-11-09 23:22:14 +0800
+
+
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-11-09 23:22:14 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 23:22:14 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 23:22:14 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 23:22:25 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (0.5ms)
+  Rendered /Users/erwinkarim/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/paloma-4.1.1/app/views/paloma/_hook.html.erb (0.2ms)
+Completed 200 OK in 187ms (Views: 185.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 23:22:25 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 23:22:25 +0800
+
+
+Started GET "/assets/jquery-ui/theme.css?body=1" for 127.0.0.1 at 2014-11-09 23:22:25 +0800
+
+
+Started GET "/assets/jquery-ui/slider.css?body=1" for 127.0.0.1 at 2014-11-09 23:22:25 +0800
+
+
+Started GET "/assets/jquery-ui/core.css?body=1" for 127.0.0.1 at 2014-11-09 23:22:25 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 23:22:25 +0800
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2014-11-09 23:22:25 +0800
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2014-11-09 23:22:25 +0800
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2014-11-09 23:22:25 +0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2014-11-09 23:22:25 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 23:22:25 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 23:22:25 +0800
+
+
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-11-09 23:22:25 +0800
+
+
+
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-11-09 23:22:25 +0800
+
+
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-11-09 23:22:25 +0800
+Started GET "/assets/paloma/controller_factory.js?body=1" for 127.0.0.1 at 2014-11-09 23:22:25 +0800
+
+
+
+
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-11-09 23:22:25 +0800
+
+
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-11-09 23:22:25 +0800
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-11-09 23:22:25 +0800
+
+
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 23:22:25 +0800
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 23:22:25 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 23:23:56 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (8.0ms)
+  Rendered /Users/erwinkarim/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/paloma-4.1.1/app/views/paloma/_hook.html.erb (0.2ms)
+Completed 200 OK in 169ms (Views: 167.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 23:23:56 +0800
+
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 23:23:56 +0800
+
+Started GET "/assets/jquery-ui/theme.css?body=1" for 127.0.0.1 at 2014-11-09 23:23:56 +0800
+
+
+Started GET "/assets/jquery-ui/core.css?body=1" for 127.0.0.1 at 2014-11-09 23:23:56 +0800
+
+
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 23:23:56 +0800
+Started GET "/assets/jquery-ui/slider.css?body=1" for 127.0.0.1 at 2014-11-09 23:23:56 +0800
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2014-11-09 23:23:56 +0800
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2014-11-09 23:23:56 +0800
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2014-11-09 23:23:56 +0800
+
+
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 23:23:56 +0800
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2014-11-09 23:23:56 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 23:23:56 +0800
+
+
+
+
+
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-11-09 23:23:56 +0800
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-11-09 23:23:56 +0800
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-11-09 23:23:56 +0800
+
+
+
+
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-11-09 23:23:56 +0800
+
+
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-11-09 23:23:56 +0800
+Started GET "/assets/paloma/controller_factory.js?body=1" for 127.0.0.1 at 2014-11-09 23:23:56 +0800
+
+
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-11-09 23:23:56 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 23:23:56 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 23:23:57 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 23:24:17 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (7.5ms)
+  Rendered /Users/erwinkarim/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/paloma-4.1.1/app/views/paloma/_hook.html.erb (0.2ms)
+Completed 200 OK in 148ms (Views: 146.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 23:24:17 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 23:24:17 +0800
+
+
+Started GET "/assets/jquery-ui/core.css?body=1" for 127.0.0.1 at 2014-11-09 23:24:17 +0800
+
+
+Started GET "/assets/jquery-ui/theme.css?body=1" for 127.0.0.1 at 2014-11-09 23:24:17 +0800
+
+
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 23:24:17 +0800
+Started GET "/assets/jquery-ui/slider.css?body=1" for 127.0.0.1 at 2014-11-09 23:24:17 +0800
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2014-11-09 23:24:17 +0800
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2014-11-09 23:24:17 +0800
+
+
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2014-11-09 23:24:17 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 23:24:17 +0800
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2014-11-09 23:24:17 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 23:24:17 +0800
+
+
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-11-09 23:24:17 +0800
+
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-11-09 23:24:17 +0800
+
+
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-11-09 23:24:17 +0800
+
+
+Started GET "/assets/paloma/controller_factory.js?body=1" for 127.0.0.1 at 2014-11-09 23:24:17 +0800
+
+
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-11-09 23:24:17 +0800
+
+
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-11-09 23:24:17 +0800
+
+
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-11-09 23:24:17 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 23:24:17 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 23:24:17 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 23:24:39 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (5.8ms)
+  Rendered /Users/erwinkarim/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/paloma-4.1.1/app/views/paloma/_hook.html.erb (0.3ms)
+Completed 200 OK in 144ms (Views: 142.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 23:24:40 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 23:24:40 +0800
+
+
+Started GET "/assets/jquery-ui/theme.css?body=1" for 127.0.0.1 at 2014-11-09 23:24:40 +0800
+
+
+Started GET "/assets/jquery-ui/core.css?body=1" for 127.0.0.1 at 2014-11-09 23:24:40 +0800
+
+
+Started GET "/assets/jquery-ui/slider.css?body=1" for 127.0.0.1 at 2014-11-09 23:24:40 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 23:24:40 +0800
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2014-11-09 23:24:40 +0800
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2014-11-09 23:24:40 +0800
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2014-11-09 23:24:40 +0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2014-11-09 23:24:40 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 23:24:40 +0800
+
+
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 23:24:40 +0800
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-11-09 23:24:40 +0800
+
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-11-09 23:24:40 +0800
+
+
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-11-09 23:24:40 +0800
+
+
+Started GET "/assets/paloma/controller_factory.js?body=1" for 127.0.0.1 at 2014-11-09 23:24:40 +0800
+
+
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-11-09 23:24:40 +0800
+
+
+
+
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-11-09 23:24:40 +0800
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-11-09 23:24:40 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 23:24:40 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 23:24:40 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 23:24:59 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (5.9ms)
+  Rendered /Users/erwinkarim/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/paloma-4.1.1/app/views/paloma/_hook.html.erb (0.2ms)
+Completed 200 OK in 143ms (Views: 140.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 23:25:00 +0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 23:25:00 +0800
+
+
+
+Started GET "/assets/jquery-ui/theme.css?body=1" for 127.0.0.1 at 2014-11-09 23:25:00 +0800
+
+
+
+Started GET "/assets/jquery-ui/slider.css?body=1" for 127.0.0.1 at 2014-11-09 23:25:00 +0800
+Started GET "/assets/jquery-ui/core.css?body=1" for 127.0.0.1 at 2014-11-09 23:25:00 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 23:25:00 +0800
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2014-11-09 23:25:00 +0800
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2014-11-09 23:25:00 +0800
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2014-11-09 23:25:00 +0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2014-11-09 23:25:00 +0800
+
+
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 23:25:00 +0800
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 23:25:00 +0800
+
+
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-11-09 23:25:00 +0800
+
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-11-09 23:25:00 +0800
+
+
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-11-09 23:25:00 +0800
+
+
+Started GET "/assets/paloma/controller_factory.js?body=1" for 127.0.0.1 at 2014-11-09 23:25:00 +0800
+
+
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-11-09 23:25:00 +0800
+
+
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-11-09 23:25:00 +0800
+
+
+
+
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-11-09 23:25:00 +0800
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 23:25:00 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 23:25:00 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 23:25:33 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (5.7ms)
+  Rendered /Users/erwinkarim/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/paloma-4.1.1/app/views/paloma/_hook.html.erb (0.2ms)
+Completed 200 OK in 146ms (Views: 143.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 23:25:34 +0800
+
+
+Started GET "/assets/jquery-ui/core.css?body=1" for 127.0.0.1 at 2014-11-09 23:25:34 +0800
+
+
+Started GET "/assets/jquery-ui/theme.css?body=1" for 127.0.0.1 at 2014-11-09 23:25:34 +0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 23:25:34 +0800
+
+
+Started GET "/assets/jquery-ui/slider.css?body=1" for 127.0.0.1 at 2014-11-09 23:25:34 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 23:25:34 +0800
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2014-11-09 23:25:34 +0800
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2014-11-09 23:25:34 +0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2014-11-09 23:25:34 +0800
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2014-11-09 23:25:34 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 23:25:34 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 23:25:34 +0800
+
+
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-11-09 23:25:34 +0800
+
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-11-09 23:25:34 +0800
+
+
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-11-09 23:25:34 +0800
+
+
+
+
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-11-09 23:25:34 +0800
+Started GET "/assets/paloma/controller_factory.js?body=1" for 127.0.0.1 at 2014-11-09 23:25:34 +0800
+
+
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-11-09 23:25:34 +0800
+
+
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-11-09 23:25:34 +0800
+
+
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 23:25:34 +0800
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 23:25:34 +0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 23:26:06 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 23:26:06 +0800
+
+
+Started GET "/assets/jquery-ui/theme.css?body=1" for 127.0.0.1 at 2014-11-09 23:26:06 +0800
+
+
+Started GET "/assets/jquery-ui/core.css?body=1" for 127.0.0.1 at 2014-11-09 23:26:06 +0800
+
+
+Started GET "/assets/jquery-ui/slider.css?body=1" for 127.0.0.1 at 2014-11-09 23:26:06 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 23:27:05 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (6.0ms)
+  Rendered /Users/erwinkarim/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/paloma-4.1.1/app/views/paloma/_hook.html.erb (0.2ms)
+Completed 200 OK in 151ms (Views: 148.8ms | ActiveRecord: 0.0ms)
+
+
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 23:27:05 +0800
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 23:27:05 +0800
+
+
+Started GET "/assets/jquery-ui/theme.css?body=1" for 127.0.0.1 at 2014-11-09 23:27:05 +0800
+
+
+Started GET "/assets/jquery-ui/core.css?body=1" for 127.0.0.1 at 2014-11-09 23:27:05 +0800
+
+
+Started GET "/assets/jquery-ui/slider.css?body=1" for 127.0.0.1 at 2014-11-09 23:27:05 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 23:27:05 +0800
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2014-11-09 23:27:05 +0800
+
+
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2014-11-09 23:27:05 +0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2014-11-09 23:27:05 +0800
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2014-11-09 23:27:05 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 23:27:05 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 23:27:05 +0800
+
+
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-11-09 23:27:05 +0800
+
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-11-09 23:27:05 +0800
+
+
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-11-09 23:27:05 +0800
+
+
+Started GET "/assets/paloma/controller_factory.js?body=1" for 127.0.0.1 at 2014-11-09 23:27:05 +0800
+
+
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-11-09 23:27:05 +0800
+
+
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-11-09 23:27:05 +0800
+
+
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-11-09 23:27:05 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 23:27:05 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 23:27:05 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 23:30:51 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (8.5ms)
+  Rendered /Users/erwinkarim/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/paloma-4.1.1/app/views/paloma/_hook.html.erb (0.2ms)
+Completed 200 OK in 151ms (Views: 148.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 23:30:51 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 23:30:51 +0800
+
+
+Started GET "/assets/jquery-ui/theme.css?body=1" for 127.0.0.1 at 2014-11-09 23:30:51 +0800
+
+
+Started GET "/assets/jquery-ui/core.css?body=1" for 127.0.0.1 at 2014-11-09 23:30:51 +0800
+
+
+Started GET "/assets/jquery-ui/slider.css?body=1" for 127.0.0.1 at 2014-11-09 23:30:51 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 23:30:51 +0800
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2014-11-09 23:30:51 +0800
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2014-11-09 23:30:51 +0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2014-11-09 23:30:51 +0800
+
+
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2014-11-09 23:30:51 +0800
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 23:30:51 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 23:30:51 +0800
+
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-11-09 23:30:51 +0800
+
+
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-11-09 23:30:51 +0800
+
+
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-11-09 23:30:51 +0800
+
+
+Started GET "/assets/paloma/controller_factory.js?body=1" for 127.0.0.1 at 2014-11-09 23:30:51 +0800
+
+
+
+
+
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-11-09 23:30:51 +0800
+
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-11-09 23:30:51 +0800
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-11-09 23:30:51 +0800
+
+
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 23:30:51 +0800
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 23:30:51 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 23:33:21 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (6.4ms)
+  Rendered /Users/erwinkarim/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/paloma-4.1.1/app/views/paloma/_hook.html.erb (0.2ms)
+Completed 200 OK in 186ms (Views: 183.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 23:33:21 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 23:33:21 +0800
+
+
+Started GET "/assets/jquery-ui/theme.css?body=1" for 127.0.0.1 at 2014-11-09 23:33:21 +0800
+
+
+Started GET "/assets/jquery-ui/core.css?body=1" for 127.0.0.1 at 2014-11-09 23:33:21 +0800
+
+
+Started GET "/assets/jquery-ui/slider.css?body=1" for 127.0.0.1 at 2014-11-09 23:33:21 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 23:33:21 +0800
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2014-11-09 23:33:21 +0800
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2014-11-09 23:33:21 +0800
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2014-11-09 23:33:21 +0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2014-11-09 23:33:21 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 23:33:21 +0800
+
+
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 23:33:21 +0800
+
+
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-11-09 23:33:21 +0800
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-11-09 23:33:21 +0800
+
+
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-11-09 23:33:21 +0800
+
+
+Started GET "/assets/paloma/controller_factory.js?body=1" for 127.0.0.1 at 2014-11-09 23:33:21 +0800
+
+
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-11-09 23:33:21 +0800
+
+
+
+
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-11-09 23:33:21 +0800
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-11-09 23:33:21 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 23:33:21 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 23:33:21 +0800
+
+
+Started GET "/assets/jquery-ui/ui-bg_flat_75_ffffff_40x100.png" for 127.0.0.1 at 2014-11-09 23:33:22 +0800
+
+
+Started GET "/assets/jquery-ui/ui-bg_glass_75_e6e6e6_1x400.png" for 127.0.0.1 at 2014-11-09 23:33:22 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 23:33:59 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (7.9ms)
+  Rendered /Users/erwinkarim/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/paloma-4.1.1/app/views/paloma/_hook.html.erb (0.2ms)
+Completed 200 OK in 193ms (Views: 190.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 23:33:59 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 23:33:59 +0800
+
+
+Started GET "/assets/jquery-ui/theme.css?body=1" for 127.0.0.1 at 2014-11-09 23:33:59 +0800
+
+
+Started GET "/assets/jquery-ui/core.css?body=1" for 127.0.0.1 at 2014-11-09 23:33:59 +0800
+
+
+Started GET "/assets/jquery-ui/slider.css?body=1" for 127.0.0.1 at 2014-11-09 23:33:59 +0800
+
+
+
+
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 23:33:59 +0800
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2014-11-09 23:33:59 +0800
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2014-11-09 23:33:59 +0800
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2014-11-09 23:33:59 +0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2014-11-09 23:33:59 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 23:33:59 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 23:33:59 +0800
+
+
+
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-11-09 23:33:59 +0800
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-11-09 23:33:59 +0800
+
+
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-11-09 23:33:59 +0800
+
+
+Started GET "/assets/paloma/controller_factory.js?body=1" for 127.0.0.1 at 2014-11-09 23:33:59 +0800
+
+
+
+
+
+
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-11-09 23:33:59 +0800
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-11-09 23:33:59 +0800
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-11-09 23:33:59 +0800
+
+
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 23:33:59 +0800
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 23:33:59 +0800
+
+
+Started GET "/assets/jquery-ui/ui-bg_flat_75_ffffff_40x100.png" for 127.0.0.1 at 2014-11-09 23:34:00 +0800
+
+
+Started GET "/assets/jquery-ui/ui-bg_glass_75_e6e6e6_1x400.png" for 127.0.0.1 at 2014-11-09 23:34:00 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 23:36:23 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (0.5ms)
+  Rendered /Users/erwinkarim/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/paloma-4.1.1/app/views/paloma/_hook.html.erb (0.2ms)
+Completed 200 OK in 186ms (Views: 183.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 23:36:24 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 23:36:24 +0800
+
+
+
+
+
+
+Started GET "/assets/jquery-ui/theme.css?body=1" for 127.0.0.1 at 2014-11-09 23:36:24 +0800
+Started GET "/assets/jquery-ui/core.css?body=1" for 127.0.0.1 at 2014-11-09 23:36:24 +0800
+Started GET "/assets/jquery-ui/slider.css?body=1" for 127.0.0.1 at 2014-11-09 23:36:24 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 23:36:24 +0800
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2014-11-09 23:36:24 +0800
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2014-11-09 23:36:24 +0800
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2014-11-09 23:36:24 +0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2014-11-09 23:36:24 +0800
+
+
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 23:36:24 +0800
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 23:36:24 +0800
+
+
+
+
+
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-11-09 23:36:24 +0800
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-11-09 23:36:24 +0800
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-11-09 23:36:24 +0800
+
+
+
+
+
+
+Started GET "/assets/paloma/controller_factory.js?body=1" for 127.0.0.1 at 2014-11-09 23:36:24 +0800
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-11-09 23:36:24 +0800
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-11-09 23:36:24 +0800
+
+
+
+
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-11-09 23:36:24 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 23:36:24 +0800
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 23:36:24 +0800
+
+
+Started GET "/assets/jquery-ui/ui-bg_flat_75_ffffff_40x100.png" for 127.0.0.1 at 2014-11-09 23:36:25 +0800
+
+
+Started GET "/assets/jquery-ui/ui-bg_glass_75_e6e6e6_1x400.png" for 127.0.0.1 at 2014-11-09 23:36:25 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-09 23:36:49 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (0.8ms)
+  Rendered /Users/erwinkarim/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/paloma-4.1.1/app/views/paloma/_hook.html.erb (0.2ms)
+Completed 200 OK in 187ms (Views: 185.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-09 23:36:49 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-09 23:36:49 +0800
+
+
+Started GET "/assets/jquery-ui/theme.css?body=1" for 127.0.0.1 at 2014-11-09 23:36:49 +0800
+
+
+Started GET "/assets/jquery-ui/slider.css?body=1" for 127.0.0.1 at 2014-11-09 23:36:49 +0800
+
+
+Started GET "/assets/jquery-ui/core.css?body=1" for 127.0.0.1 at 2014-11-09 23:36:49 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-09 23:36:49 +0800
+
+
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2014-11-09 23:36:49 +0800
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2014-11-09 23:36:49 +0800
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2014-11-09 23:36:49 +0800
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2014-11-09 23:36:49 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-09 23:36:49 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-09 23:36:49 +0800
+
+
+Started GET "/assets/paloma/init.js?body=1" for 127.0.0.1 at 2014-11-09 23:36:49 +0800
+
+
+Started GET "/assets/paloma/router.js?body=1" for 127.0.0.1 at 2014-11-09 23:36:49 +0800
+
+
+Started GET "/assets/paloma/controller.js?body=1" for 127.0.0.1 at 2014-11-09 23:36:49 +0800
+
+
+Started GET "/assets/paloma/controller_factory.js?body=1" for 127.0.0.1 at 2014-11-09 23:36:49 +0800
+
+
+Started GET "/assets/paloma/engine.js?body=1" for 127.0.0.1 at 2014-11-09 23:36:49 +0800
+
+
+Started GET "/assets/paloma/paloma.js?body=1" for 127.0.0.1 at 2014-11-09 23:36:49 +0800
+
+
+Started GET "/assets/paloma/index.js?body=1" for 127.0.0.1 at 2014-11-09 23:36:49 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-09 23:36:49 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-09 23:36:49 +0800

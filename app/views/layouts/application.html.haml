@@ -7,9 +7,14 @@
 	= stylesheet_link_tag 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap-theme.min.css'
 	= csrf_meta_tags 
 %body
-	.container
+	.layer1{ :style => "position:absolute; z-index:100; width:100%; height:100%; overflow:hidden;" }
+		/ put the background picture here i guess
+		= image_tag "/sample.jpg", :style => "width:100%; transform:scale(1.0)"
+	.layer2{ :style => "position:abosoute; z-index:200" }
+		/ layer 2 items (place holder??)
+	.layer3.container{ :style => "position:absolute; z-index:300" }
+		/ actual clickable contents
 		.row
-			.col-xs-12
-				= yield
+			= yield
 	= javascript_include_tag 'application', 'data-turbolinks-track' => true 
 	= javascript_include_tag 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js'
