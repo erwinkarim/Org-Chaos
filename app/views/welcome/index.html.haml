@@ -7,21 +7,31 @@
 					.panel-heading#panel1{ :role => "tab" }
 						%h4.panel-title 
 							%a{ :data => { :toggle => 'collapse', :parent => "#accordion"}, :aria => { :expanded => "true", :controls => "panel1" },  :href =>  "#panel1body" }
-								Layer 1
+								Layer Group 1
 					.panel-collapse.in.collapse#panel1body{ :role => "tabpanel" }
 						.panel-body
-							Some Shit
+							.checkbox
+								%label
+									%input{:type => 'checkbox' } Layer 1
+							.checkbox
+								%label
+									%input{:type => 'checkbox' } Layer 2
 				.panel.panel-default
 					.panel-heading#panel2{ :role => "tab" }
 						%h4.panel-title 
 							%a{ :data => { :toggle => 'collapse', :parent => "#accordion"}, :aria => { :expanded => "true", :controls => "panel1" },  :href =>  "#panel2body" }
-								Layer 2
+								Layer Group 2
 					.panel-collapse.collapse#panel2body{ :role => "tabpanel" }
 						.panel-body
-							Some Shit
+							.checkbox
+								%label
+									%input{:type => 'checkbox' } Layer A
+							.checkbox
+								%label
+									%input{:type => 'checkbox' } Layer B
 				%br
 				.button-group
-					%button.btn.btn-primary.btn-block New Panel
+					%button.btn.btn-primary.btn-block + New Layer
 	.row
 		.col-xs-12
 			%form.form
