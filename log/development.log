@@ -4702,3 +4702,73 @@ ActionController::RoutingError (No route matches [GET] "/assets/jquery-ui/ui-bg_
   Rendered /Users/erwinkarim/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (51.6ms)
   Rendered /Users/erwinkarim/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (7.9ms)
   Rendered /Users/erwinkarim/.rvm/gems/ruby-2.1.2@global/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (58.0ms)
+
+
+Started GET "/" for 192.168.234.1 at 2014-11-10 09:47:09 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.7ms)
+  Rendered /home/erwinkarim/.rvm/gems/ruby-2.1.3/gems/paloma-4.1.1/app/views/paloma/_hook.html.erb (1.5ms)
+Completed 200 OK in 1112ms (Views: 1066.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets_dev/jquery-ui/theme.css?body=1" for 192.168.234.1 at 2014-11-10 09:47:10 +0800
+
+
+
+
+Started GET "/assets_dev/welcome.css?body=1" for 192.168.234.1 at 2014-11-10 09:47:10 +0800
+Started GET "/assets_dev/application.css?body=1" for 192.168.234.1 at 2014-11-10 09:47:10 +0800
+
+
+Started GET "/assets_dev/jquery-ui/core.css?body=1" for 192.168.234.1 at 2014-11-10 09:47:10 +0800
+
+
+Started GET "/assets_dev/jquery-ui/slider.css?body=1" for 192.168.234.1 at 2014-11-10 09:47:10 +0800
+
+
+Started GET "/assets_dev/jquery.js?body=1" for 192.168.234.1 at 2014-11-10 09:47:10 +0800
+
+
+Started GET "/assets_dev/jquery-ui/core.js?body=1" for 192.168.234.1 at 2014-11-10 09:47:10 +0800
+
+
+Started GET "/assets_dev/jquery-ui/widget.js?body=1" for 192.168.234.1 at 2014-11-10 09:47:10 +0800
+
+
+Started GET "/assets_dev/jquery-ui/mouse.js?body=1" for 192.168.234.1 at 2014-11-10 09:47:10 +0800
+
+
+Started GET "/assets_dev/jquery-ui/slider.js?body=1" for 192.168.234.1 at 2014-11-10 09:47:10 +0800
+
+
+Started GET "/assets_dev/jquery_ujs.js?body=1" for 192.168.234.1 at 2014-11-10 09:47:10 +0800
+
+
+Started GET "/assets_dev/turbolinks.js?body=1" for 192.168.234.1 at 2014-11-10 09:47:10 +0800
+
+
+Started GET "/assets_dev/paloma/init.js?body=1" for 192.168.234.1 at 2014-11-10 09:47:10 +0800
+
+
+Started GET "/assets_dev/paloma/router.js?body=1" for 192.168.234.1 at 2014-11-10 09:47:10 +0800
+
+
+Started GET "/assets_dev/paloma/controller.js?body=1" for 192.168.234.1 at 2014-11-10 09:47:10 +0800
+
+
+Started GET "/assets_dev/paloma/controller_factory.js?body=1" for 192.168.234.1 at 2014-11-10 09:47:11 +0800
+
+
+Started GET "/assets_dev/paloma/engine.js?body=1" for 192.168.234.1 at 2014-11-10 09:47:11 +0800
+
+
+Started GET "/assets_dev/paloma/paloma.js?body=1" for 192.168.234.1 at 2014-11-10 09:47:11 +0800
+
+
+Started GET "/assets_dev/paloma/index.js?body=1" for 192.168.234.1 at 2014-11-10 09:47:11 +0800
+
+
+Started GET "/assets_dev/welcome.js?body=1" for 192.168.234.1 at 2014-11-10 09:47:11 +0800
+
+
+Started GET "/assets_dev/application.js?body=1" for 192.168.234.1 at 2014-11-10 09:47:11 +0800
