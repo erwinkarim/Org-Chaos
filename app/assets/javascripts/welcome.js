@@ -5,7 +5,7 @@ WelcomeController.prototype.index = function(){
 		$('#opacity-slider').slider();
 
 		$('#toggle-sidebar').click( function(){
-			$('#sidebar').slideToggle('400', function(){
+			$('#sidebar').toggle('slide', { direction:'left' }, '400', function(){
 				$('#toggle-sidebar').text( $('#toggle-sidebar').text() == "<" ? ">" : "<");
 			});
 		});

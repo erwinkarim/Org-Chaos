@@ -12,6 +12,7 @@
 //
 //= require jquery
 //= require jquery-ui/slider
+//= require jquery-ui/effect-slide
 //= require jquery_ujs
 //= require turbolinks
 //= require paloma

@@ -6,7 +6,7 @@
 				.panel.panel-default
 					.panel-heading#panel1{ :role => "tab" }
 						%h4.panel-title 
-							%a{ :data => { :toggle => 'collapse', :parent => "#accordion"}, :aria => { :expanded => "true", :controls => "panel1" },  :href =>  "#panel1body" }
+							%a{ :data => { :toggle => 'collapse', :parent => "false"}, :aria => { :expanded => "true", :controls => "panel1" },  :href =>  "#panel1body" }
 								Layer Group 1
 					.panel-collapse.in.collapse#panel1body{ :role => "tabpanel" }
 						.panel-body
@@ -19,7 +19,7 @@
 				.panel.panel-default
 					.panel-heading#panel2{ :role => "tab" }
 						%h4.panel-title 
-							%a{ :data => { :toggle => 'collapse', :parent => "#accordion"}, :aria => { :expanded => "true", :controls => "panel1" },  :href =>  "#panel2body" }
+							%a{ :data => { :toggle => 'collapse', :parent => "false"}, :aria => { :expanded => "true", :controls => "panel1" },  :href =>  "#panel2body" }
 								Layer Group 2
 					.panel-collapse.collapse#panel2body{ :role => "tabpanel" }
 						.panel-body
@@ -32,17 +32,5 @@
 				%br
 				.button-group
 					%button.btn.btn-primary.btn-block + New Layer
-	.row
-		.col-xs-12
-			%form.form
-				.form-group
-					%label Color
-					%select.form-control
-						%option Color1
-						%option Color2
-						%option Color3
-				.form-group
-					%label Opacity
-					#opacity-slider
 .col-xs-1{ :style => "padding:5px;" }
 	%button#toggle-sidebar.btn.btn-default <
