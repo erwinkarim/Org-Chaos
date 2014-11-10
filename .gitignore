@@ -2,6 +2,7 @@
 *.rbc
 *.DStore
 .config
+.env
 coverage/
 InstalledFiles
 pkg/

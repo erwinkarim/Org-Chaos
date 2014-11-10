@@ -25,7 +25,7 @@ production:
   encoding: unicode
   database: orgchaos
   pool: 5
-  username: myapp
-  password: password1
+  username: erwinkarim
+  password: 
   #<<: *default
   #database: db/production.sqlite3
