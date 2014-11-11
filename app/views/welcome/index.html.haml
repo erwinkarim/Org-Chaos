@@ -1,4 +1,4 @@
-.col-xs-3#sidebar{ :style => "background:white;" }
+.col-xs-3#sidebar{ :style => "background:white; max-height:100vh; overflow:auto; " }
 	%h1 Welcome
 	.row
 		.col-xs-12
@@ -29,8 +29,9 @@
 							.checkbox
 								%label
 									%input{:type => 'checkbox' } Layer B
+				#end-of-panel
 				%br
 				.button-group
-					%button.btn.btn-primary.btn-block + New Layer
+					%button#new-layer.btn.btn-primary.btn-block + New Layer
 .col-xs-1{ :style => "padding:5px;" }
 	%button#toggle-sidebar.btn.btn-default <

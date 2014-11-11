@@ -1,0 +1,13 @@
+.panel.panel-default
+  .panel-heading{ :id => @handle ,  :role => "tab" }
+    %h4.panel-title 
+      %a{ :data => { :toggle => 'collapse', :parent => "false"}, :aria => { :expanded => "true", :controls => @handle },  :href =>  "#" + @handle + "body" }
+        Layer Group #{@handle} 
+  .panel-collapse.in.collapse{ :id => @handle + 'body',  :role => "tabpanel" }
+    .panel-body
+      .checkbox
+        %label
+          %input{:type => 'checkbox' } Layer #{@handle}-1
+      .checkbox
+        %label
+          %input{:type => 'checkbox' } Layer #{@handle}-2
